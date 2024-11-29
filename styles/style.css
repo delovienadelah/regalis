@@ -105,7 +105,7 @@ body{
 /* ABOUT */
 
 .about{
-    height: 200vh;
+    height: 150vh;
     display: flex;
     flex-direction: column;
     justify-content:center;
@@ -169,3 +169,70 @@ body{
     transform: translate(-50%, -0%);  
     /* тут короче шоб в центр поставить а то на верху почему-то спавнится хз как работает*/
 } 
+
+/* TRUSTED */
+
+.trusted{
+
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 20px;
+padding: 2em;
+}
+
+.t-inner{
+    display: flex;
+    gap: 40px;
+}
+
+.t-item{
+    filter: contrast(0%);
+    transition: 0,4s all;
+}
+
+.t-item:hover{
+    filter: contrast(100%);
+}
+
+/* LEGEND */
+
+.legend{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 4em;
+    gap: 50px;
+}
+
+.l-logo{
+    height: 20px;
+}
+
+.l-text{
+    font-size: 3em;
+    line-height: 1em;
+    font-weight: 400;
+}
+
+/* TEAM */
+
+.team{
+    padding: 1em 4em;
+}
+
+.team-img{
+    width: 100%;
+    height: 500px;
+    background: url(../assets/images/team-img.jpg) center center no-repeat;
+    background-size: cover ;
+    border-radius: 14px;
+    display: flex;
+    padding: 1em;
+    align-items: flex-end;
+    font-size: 2em;
+    text-transform: uppercase;
+    line-height: 1em;
+}

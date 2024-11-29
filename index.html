@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="assets/icons/logo-icon.svg">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/lenis.css">
     <title>welcome | regalis</title>
 </head>
 <body>
@@ -30,7 +31,7 @@
 <section class="about">
     <div class="about-text">
         <p class="subtitle">about</p>
-        <h1 class="title">we <span class="curive-title">pair</span>design <br>with thought</h1>
+        <h1 class="title">we <span class="cursive-title">pair</span> design <br>with thought</h1>
     </div>
     <div class="about-cards">
         <div class="about-card-inner">
@@ -47,10 +48,64 @@
                 <h2 class="card-numbers">12+</h2>
             </div>
         </div>
-        
-
         <img src="assets/images/glass-shape.png" alt="" class="about-shape">
     </div>
 </section>
+
+<!-- TRUSTED -->
+
+<section class="trusted">
+    <p class="card-subtitle">trusted by</p>
+    <div class="t-inner">
+        <img src="assets/icons/accenture_logo.svg" alt="accenture" class="t-item">
+        <img src="assets/icons/apple-logo.svg" alt="apple" class="t-item">
+        <img src="assets/icons/bearingpoint-logo.svg" alt="bearingpoint" class="t-item">
+        <img src="assets/icons/google-icon.svg" alt="google" class="t-item">
+        <img src="assets/icons/microsoft-icon.svg" alt="microsoft" class="t-item">
+    </div>
+</section>
+
+<!-- LEGEND -->
+<section class="legend">
+    <img src="assets/icons/logo-icon.svg"  class="l-logo">
+    <h3 class="l-text">
+                     WE BUILD WORLD-CLASS MARKETING SITES FOR <br>
+                     SOFTWARE STARTIPS. wE ARE A TIGHT-KNIT TEAM <br>
+                     WITH 2+ YEARS OF EXPERIENCE HELPING FOUNDERS <br>
+                     SHOWCASE HOW GOOD THEIR PRODUCTs REALLY ARE. <br>
+                    </h3>
+</section>
+
+<!-- TEAM -->
+
+<section class="team">
+    <div class="team-img">
+        <h2 class="team-title">people invlolved</h2>
+    </div>
+</section>
+
+
+
+
+
+<script src="https://unpkg.com/lenis@1.1.17/dist/lenis.min.js"></script>
+<script>
+    // Initialize Lenis
+const lenis = new Lenis();
+
+// Listen for the scroll event and log the event data
+lenis.on('scroll', (e) => {
+  console.log(e);
+});
+
+// Use requestAnimationFrame to continuously update the scroll
+function raf(time) {
+  lenis.raf(time);
+  requestAnimationFrame(raf);
+}
+
+requestAnimationFrame(raf);
+
+</script>
 </body>
 </html>
