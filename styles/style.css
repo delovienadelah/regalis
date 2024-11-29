@@ -43,6 +43,10 @@ body{
     text-shadow: #000 1px 0 50px;
 }
 
+.subtitle{
+    text-transform: uppercase;
+}
+
 .logo{
     font-size: 20px;
     font-weight: 500;
@@ -97,3 +101,71 @@ body{
     justify-content: space-between;
     width: 100%;
 }
+
+/* ABOUT */
+
+.about{
+    height: 200vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.cursive-title{
+    font-weight: 200;
+    font-style: italic;
+}
+
+.about-cards{
+    display: flex;
+    position: relative;
+}
+
+.a-card{
+    height: 300px;
+    width: 300px;
+    background-color:rgba(19, 19, 19, 0.5);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start ;
+    text-align: left;
+    justify-content: space-between;
+    padding: 2em;
+    backdrop-filter: blur(5px);
+}
+
+.card-subtitle{
+    text-transform: uppercase;
+    font-size: 22px;
+    line-height: 1em;
+}
+
+.card-numbers{
+    font-size: 4em;
+
+}
+
+.about-card-inner{
+    display: flex;
+    gap: 20px;
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -0%);
+    z-index:1000;
+}
+.about-shape{
+    position: absolute ;
+    z-index:500;
+    height: 500px;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -0%);  
+    /* тут короче шоб в центр поставить а то на верху почему-то спавнится хз как работает*/
+} 
