@@ -179,6 +179,9 @@ flex-direction: column;
 align-items: center;
 gap: 20px;
 padding: 2em;
+height: 50vh;
+justify-content: center;
+margin: 10em 0;
 }
 
 .t-inner{
@@ -198,7 +201,7 @@ padding: 2em;
 /* LEGEND */
 
 .legend{
-    height: 100vh;
+    
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -212,7 +215,7 @@ padding: 2em;
 }
 
 .l-text{
-    font-size: 3em;
+    font-size: 2,5em;
     line-height: 1em;
     font-weight: 400;
 }
@@ -220,7 +223,7 @@ padding: 2em;
 /* TEAM */
 
 .team{
-    padding: 1em 4em;
+    margin: 4em;
 }
 
 .team-img{
@@ -235,4 +238,20 @@ padding: 2em;
     font-size: 2em;
     text-transform: uppercase;
     line-height: 1em;
+}
+
+/* PORTFOLIO */
+
+.shape-container{
+    display: flex;
+    justify-content: center;
+}
+.break-shape{
+    height: 300px; 
+    transition: 1s all;
+}
+
+.break-shape:hover{
+    transform: rotate(-30deg);
+    transition: .2s all;
 }
