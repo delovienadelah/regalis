@@ -245,6 +245,7 @@ margin: 10em 0;
 .shape-container{
     display: flex;
     justify-content: center;
+    margin: 2em 0em;
 }
 .break-shape{
     height: 300px; 
@@ -254,4 +255,19 @@ margin: 10em 0;
 .break-shape:hover{
     transform: rotate(-30deg);
     transition: .2s all;
+}
+
+.portfolio{
+    height: 100vh;
+    width: 100%;
+    padding: 4em;
+}
+
+.p-item{
+    height: 30px;
+    width: 50px;
+}
+
+.p-header{
+    display: flex;
 }
