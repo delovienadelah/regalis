@@ -265,9 +265,59 @@ margin: 10em 0;
 
 .p-item{
     height: 30px;
-    width: 50px;
+    width: 100%;
 }
 
-.p-header{
+.p-header, .p-row{
     display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #333333;
+    padding: 1em 0em;
+}
+
+.p-row{
+    transition: 1s all;
+    background: transparent;
+}
+
+#pr-1:hover{
+    background: url(../assets/images/godzilla-pr-bg.jpg);
+    background-size: cover;
+    transition: 1s all;
+}
+
+#pr-2:hover{
+    background: url(../assets/images/barryallen-pr-bg.jpg);
+    background-size: cover;
+    transition: 1s all;
+}
+
+#pr-3:hover{
+    background: url(../assets/images/itachimishima-pr-bg.jpg);
+    background-size: cover;
+    transition: 1s all;
+}
+
+#pr-4:hover{
+    background: url(../assets/images/jinkazama-pr-bg.jpg);
+    background-size: cover;
+    transition: 1s all;
+}
+
+#pr-5:hover{
+    background: url(../assets/images/ezioauditore-pr-bg.jpg);
+    background-size: cover;
+    transition: 1s all;
+}
+
+#pr-6:hover{
+    background:url(../assets/images/oliverqueen-pr-bg.jpg) ;
+    background-size: cover;
+    transition: 1s all;
+}
+
+#pr-7:hover{
+    background: url(../assets/images/peterparker-pr-bg.jpg);
+    background-size: cover;
+    transition: 1s all;
 }
