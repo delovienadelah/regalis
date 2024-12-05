@@ -258,7 +258,7 @@ margin: 10em 0;
 }
 
 .portfolio{
-    height: 100vh;
+    margin: 3em 0em;
     width: 100%;
     padding: 4em;
 }
@@ -281,43 +281,123 @@ margin: 10em 0;
 }
 
 #pr-1:hover{
-    background: url(../assets/images/godzilla-pr-bg.jpg);
+    background: url(../assets/images/godzilla-pr-bg.jpg) center;
     background-size: cover;
     transition: 1s all;
 }
 
 #pr-2:hover{
-    background: url(../assets/images/barryallen-pr-bg.jpg);
-    background-size: cover;
+    background: url(../assets/images/barryallen-pr-bg.jpg) center;
+    background-size: cover; 
     transition: 1s all;
 }
 
 #pr-3:hover{
-    background: url(../assets/images/itachimishima-pr-bg.jpg);
+    background: url(../assets/images/itachimishima-pr-bg.jpg) center;
     background-size: cover;
     transition: 1s all;
 }
 
 #pr-4:hover{
-    background: url(../assets/images/jinkazama-pr-bg.jpg);
+    background: url(../assets/images/jinkazama-pr-bg.jpg )center;
     background-size: cover;
     transition: 1s all;
 }
 
 #pr-5:hover{
-    background: url(../assets/images/ezioauditore-pr-bg.jpg);
+    background: url(../assets/images/ezioauditore-pr-bg.jpg) center;
     background-size: cover;
     transition: 1s all;
 }
 
 #pr-6:hover{
-    background:url(../assets/images/oliverqueen-pr-bg.jpg) ;
+    background:url(../assets/images/oliverqueen-pr-bg1.png) center;
     background-size: cover;
     transition: 1s all;
 }
 
 #pr-7:hover{
-    background: url(../assets/images/peterparker-pr-bg.jpg);
+    background: url(../assets/images/peterparker-pr-bg.jpg) center;
     background-size: cover;
     transition: 1s all;
+}
+
+/* CTA */
+
+.cta{
+    height:60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#cta{
+    text-align: center;
+    font-size: larger;
+    height: 50;
+}
+
+.cta-btn{
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+}
+
+#cta-btn{
+    border: 1px solid white;
+}
+
+/* FOOTER */
+
+.footer{
+    height: 50vh;
+    width:100%;
+    padding:0px 31px;
+}
+
+.foot-up{
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.fu-text{
+    font-size: 2.5em;
+    margin-right: 31px;
+    font-weight: 100;
+}
+
+.fu-inner{
+    display: flex;
+    justify-content: flex-end;
+    width: 60%;
+    font-size: 2.5em;
+    color: gray;
+    border-bottom: 1px solid gray ;
+}
+
+.lupa{
+    margin-left: 20px;
+    width: 40px;
+}
+
+.foot-mdl{
+    text-transform: uppercase;
+    font-size: 12vw;
+    display: flex;
+    justify-content:space-around;
+    width: 100%;
+    line-height: 2em;
+}
+
+.foot-btm{
+    display: flex;
+    justify-content: space-between;
+    padding:0px 31px;
+}
+
+.f-inner{
+    display: flex;
+    justify-content: space-between;
 }
